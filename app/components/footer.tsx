@@ -5,11 +5,11 @@ export default function Footer() {
                 © {new Date().getFullYear()} Your Name. Built with React, Tailwind & ❤️
             </p>
             <p className="mt-2 text-xs text-accent">
-                <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" className="hover:text-hoverAccent">
+                <a href="https://github.com/TryYourBestAndLeaveTheRest" target="_blank" rel="noopener noreferrer" className="hover:text-hoverAccent">
                     GitHub
                 </a>{' '}
                 |{' '}
-                <a href="https://linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer" className="hover:text-hoverAccent">
+                <a href="https://linkedin.com/in/kuriousdev" target="_blank" rel="noopener noreferrer" className="hover:text-hoverAccent">
                     LinkedIn
                 </a>
             </p>
