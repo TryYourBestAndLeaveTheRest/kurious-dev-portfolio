@@ -1,3 +1,6 @@
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+import { useEffect } from "react";
 import {
   isRouteErrorResponse,
   Links,
@@ -6,7 +9,7 @@ import {
   Scripts,
   ScrollRestoration,
 } from "react-router";
-
+import '@fontsource/fira-code'; // Defaults to weight 400
 import type { Route } from "./+types/root";
 import "./app.css";
 
@@ -24,6 +27,12 @@ export const links: Route.LinksFunction = () => [
 ];
 
 export function Layout({ children }: { children: React.ReactNode }) {
+
+  useEffect(() => {
+    AOS.init({ duration: 800, easing: 'ease-in-out', once: true });
+  }, []);
+
+
   return (
     <html lang="en">
       <head>

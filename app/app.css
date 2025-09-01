@@ -1,15 +1,47 @@
 @import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
-@theme {
-  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif,
-    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+/* ========== Custom Theme Layer ========== */
+@layer base {
+  html {
+    font-family: 'Fira Code', monospace;
+    background-color: #0d1117;
+    color: #c9d1d9;
+  }
+
+  :root {
+    --color-background: #0d1117;
+    --color-foreground: #c9d1d9;
+    --color-accent: #58a6ff;
+    --color-hover-accent: #1f6feb;
+    --color-border: #21262d;
+  }
 }
 
-html,
-body {
-  @apply bg-white dark:bg-gray-950;
-
-  @media (prefers-color-scheme: dark) {
+/* Optional: Dark mode preference */
+@media (prefers-color-scheme: dark) {
+  html {
     color-scheme: dark;
+  }
+}
+
+/* Custom Utilities for colors */
+@layer utilities {
+  .bg-background {
+    background-color: var(--color-background);
+  }
+  .text-foreground {
+    color: var(--color-foreground);
+  }
+  .text-accent {
+    color: var(--color-accent);
+  }
+  .text-hoverAccent:hover {
+    color: var(--color-hover-accent);
+  }
+  .border-border {
+    border-color: var(--color-border);
   }
 }
