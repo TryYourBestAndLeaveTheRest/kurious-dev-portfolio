@@ -7,38 +7,38 @@ export default function Navbar() {
     return (
         <nav className="bg-white sticky bottom-0 text-foreground font-mono shadow-md sticky top-0 z-50">
             <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div className="flex justify-between h-16 items-center">
+                <div className="flex justify-between items-center">
                     {/* Brand */}
-                    <Link to="/" className="text-xl font-bold text-accent">
-                        DevName
+                    <Link to="#" className="text-xl font-bold text-accent">
+                        KuriousDev
                     </Link>
 
                     {/* Desktop Menu */}
-                    <div className="hidden md:flex space-x-8">
+                    <div className="hidden md:flex">
                         <Link
-                            to="/"
-                            className="hover:text-accent transition-colors duration-200"
+                            to="#"
+                            className="text-gray-700 p-6 hover:bg-sky-500 transition-colors  duration-200"
                             onClick={() => setIsOpen(false)}
                         >
                             Home
                         </Link>
                         <Link
-                            to="/about"
-                            className="hover:text-accent transition-colors duration-200"
+                            to="/#about"
+                            className="text-gray-700 p-6 hover:bg-sky-500 transition-colors duration-200"
                             onClick={() => setIsOpen(false)}
                         >
                             About
                         </Link>
                         <Link
-                            to="/projects"
-                            className="hover:text-accent transition-colors duration-200"
+                            to="/#projects"
+                            className="text-gray-700 p-6 hover:bg-sky-500 transition-colors duration-200"
                             onClick={() => setIsOpen(false)}
                         >
                             Projects
                         </Link>
                         <Link
-                            to="/contact"
-                            className="hover:text-accent transition-colors duration-200"
+                            to="/#contact"
+                            className="text-gray-700 p-6 hover:bg-sky-500 transition-colors duration-200"
                             onClick={() => setIsOpen(false)}
                         >
                             Contact
@@ -82,28 +82,28 @@ export default function Navbar() {
             {isOpen && (
                 <div className="md:hidden px-4 pb-4 space-y-2">
                     <Link
-                        to="/"
+                        to="#"
                         className="block hover:text-accent transition-colors duration-200"
                         onClick={() => setIsOpen(false)}
                     >
                         Home
                     </Link>
                     <Link
-                        to="/about"
+                        to="/#about"
                         className="block hover:text-accent transition-colors duration-200"
                         onClick={() => setIsOpen(false)}
                     >
                         About
                     </Link>
                     <Link
-                        to="/projects"
+                        to="/#projects"
                         className="block hover:text-accent transition-colors duration-200"
                         onClick={() => setIsOpen(false)}
                     >
                         Projects
                     </Link>
                     <Link
-                        to="/contact"
+                        to="/#contact"
                         className="block hover:text-accent transition-colors duration-200"
                         onClick={() => setIsOpen(false)}
                     >
