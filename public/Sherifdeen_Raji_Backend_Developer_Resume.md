@@ -1,0 +1,115 @@
+# SHERIFDEEN RAJI
+**Backend Developer & Aspiring DevOps Engineer**
+
+📧 Email: [Your Email Here]  
+📱 Phone: [Your Phone Here]  
+🌐 Portfolio: [Your Portfolio URL]  
+💼 LinkedIn: [Your LinkedIn]  
+🐙 GitHub: github.com/TryYourBestAndLeaveTheRest
+
+---
+
+## PROFESSIONAL SUMMARY
+
+Aspiring Backend Developer with hands-on experience in server-side programming, API development, and database management. Proficient in Node.js with growing expertise in Laravel, PostgreSQL, and MySQL. Currently expanding skills in DevOps practices including Docker, cloud platforms, and modern deployment workflows. Passionate about building robust, scalable backend systems and eager to contribute to real-world software projects.
+
+---
+
+## TECHNICAL SKILLS
+
+**Programming Languages & Frameworks:**
+- Node.js (Experienced)
+- Laravel (Learning)
+- JavaScript/TypeScript
+- SQL
+
+**Databases:**
+- PostgreSQL
+- MySQL
+- Database Design & Schema Management
+
+**Tools & Technologies:**
+- Git & GitHub
+- Postman/cURL for API testing
+- Docker (Learning)
+- AWS (Learning)
+- Redis (Exposure)
+
+**Backend Development:**
+- REST API Design & Development
+- Authentication & Authorization
+- Data Validation & Error Handling
+- Server-side Programming
+
+---
+
+## PROJECTS
+
+### Word Guesser Game
+**Live Demo:** https://word-guesser-fkeq.onrender.com/  
+**GitHub:** https://github.com/TryYourBestAndLeaveTheRest/word-guesser.git
+- Interactive word guessing game with real-time gameplay
+- Responsive design with smooth user experience
+- Implemented guess tracking and scoring system
+- Deployed on Render with modern web technologies
+
+### Food App Backend API
+**Live Demo:** http://project-food-app-backend.onrender.com/docs  
+**GitHub:** https://github.com/TryYourBestAndLeaveTheRest/project_food_app_backend.git
+- Comprehensive REST API for food delivery application
+- Robust authentication and data validation
+- Complete error handling and API documentation
+- Swagger/OpenAPI documentation integration
+- Deployed backend service with database integration
+
+---
+
+## EXPERIENCE & LEARNING
+
+**Self-Directed Learning & Development** | Ongoing
+- Building practical backend applications with Node.js
+- Learning Laravel framework for PHP development
+- Implementing database schemas and relationships
+- Exploring DevOps practices and cloud deployment
+- Contributing to open-source projects on GitHub
+
+**Key Achievements:**
+- Successfully deployed multiple backend applications
+- Created comprehensive API documentation
+- Implemented authentication and security best practices
+- Built scalable database architectures
+
+---
+
+## EDUCATION & CERTIFICATIONS
+
+**[Your Education Background]**  
+[Institution] | [Year]
+
+**Relevant Learning:**
+- Backend Development with Node.js
+- Database Management (PostgreSQL, MySQL)
+- API Design and Development
+- Git Version Control
+- DevOps Fundamentals
+
+---
+
+## WHAT EXCITES ME ABOUT BACKEND DEVELOPMENT
+
+I'm passionate about the behind-the-scenes magic that powers applications. There's something deeply satisfying about designing efficient database schemas, building secure APIs that handle thousands of requests, and seeing how well-architected backend systems enable great user experiences. I love solving complex problems, optimizing performance, and learning new technologies that make systems more robust and scalable.
+
+The opportunity to work with experienced engineers, contribute to real-world projects, and grow my skills in a collaborative environment is exactly what I'm looking for in my next role.
+
+---
+
+## AVAILABILITY
+
+- Available for at least 3 months
+- Remote work ready
+- Strong communication and collaboration skills
+- Eager to learn and contribute to team success
+
+---
+
+*References available upon request*
