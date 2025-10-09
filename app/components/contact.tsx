@@ -66,7 +66,7 @@ export default function Contact() {
         >
             <h2 className="text-4xl font-mono font-bold mb-6 text-accent">Contact Me</h2>
             <p className="mb-4 max-w-3xl text-lg leading-relaxed">
-                Ready to build something amazing together? I'm available for backend development 
+                Ready to build something amazing together? I'm available for backend development
                 opportunities and excited to contribute to your next project. Let's connect!
             </p>
             <form
