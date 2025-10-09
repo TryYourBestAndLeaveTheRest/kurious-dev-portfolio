@@ -13,7 +13,7 @@ export default function Hero() {
                     Backend Developer & Aspiring DevOps Engineer — building robust APIs,
                     working with databases, and learning modern deployment practices.
                 </h2>
-                <div className="space-x-4">
+                <div className="flex flex-wrap gap-4">
                     <a
                         href="#projects"
                         className="inline-block px-6 py-3 bg-accent text-background font-semibold rounded-md hover:bg-hoverAccent transition-colors duration-300"
@@ -25,6 +25,13 @@ export default function Hero() {
                         className="inline-block px-6 py-3 border border-accent text-accent font-semibold rounded-md hover:bg-accent hover:text-background transition-colors duration-300"
                     >
                         Hire Me
+                    </a>
+                    <a
+                        href="/Raji_Sherifdeen_Resume.docx"
+                        download="Raji_Sherifdeen_Resume.docx"
+                        className="inline-block px-6 py-3 bg-gray-700 text-white font-semibold rounded-md hover:bg-gray-600 transition-colors duration-300"
+                    >
+                        📄 Download Resume
                     </a>
                 </div>
             </div>
