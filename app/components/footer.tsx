@@ -13,7 +13,7 @@ export default function Footer() {
                     LinkedIn
                 </a>{' '}
                 |{' '}
-                <a href="mailto:TechCareerStudio@gmail.com" className="hover:text-hoverAccent">
+                <a href="mailto:sherifdeenraji96@gmail.com" className="hover:text-hoverAccent">
                     Email
                 </a>
             </p>
