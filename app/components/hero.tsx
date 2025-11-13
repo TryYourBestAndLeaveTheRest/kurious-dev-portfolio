@@ -27,11 +27,11 @@ export default function Hero() {
                         Hire Me
                     </a>
                     <a
-                        href="/Raji_Sherifdeen_Resume.docx"
+                        href="https://docs.google.com/document/d/1ofI0Jf6VRhebaiQcNsZruz5jrLiKCCRmNUZVHEKXz-8/edit?usp=sharing"
                         download="Raji_Sherifdeen_Resume.docx"
                         className="inline-block px-6 py-3 bg-gray-700 text-white font-semibold rounded-md hover:bg-gray-600 transition-colors duration-300"
                     >
-                        📄 Download Resume
+                         Download Resume
                     </a>
                 </div>
             </div>
